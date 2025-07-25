@@ -1,0 +1,8 @@
+# railway.toml
+[build]
+  # داکرفایل یا دستور نصب دپندنسی‌ها
+  install = "pip install -r requirements.txt"
+
+[deploy]
+  # دستور اجرای ربات
+  start = "python main.py"
