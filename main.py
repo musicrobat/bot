@@ -10,10 +10,10 @@ import os
 
 TOKEN = os.getenv("BOT_TOKEN")
 
-bot = Bot(token=TOKEN)
+bot = Bot(8374056469:AAEPHX04QMel4FZPULe5A9xWGgsk21YEr1I)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
-ADMINS = [123456789]
+ADMINS = [6479704151]
 admin_list = set(ADMINS)
 lotteries = {}
 shabash_records = []
